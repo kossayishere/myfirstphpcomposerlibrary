@@ -1,5 +1,10 @@
 {
-    "name": "asus/one",
+    "name": "ksai/randomName",
     "type": "kibrary",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RandomName\\": "src/randomName/"
+        }
+    }
 }
